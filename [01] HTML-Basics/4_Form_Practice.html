@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+</head>
+
+<body>
+    <h1>Form Demo</h1>
+    <hr>
+
+    <form action="/search/">
+        <table>
+            <tr>
+                <td><label for="username">Username</label></td>
+                <td></td>
+                <td><input type="text" required id="username" name="username" placeholder="username"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td></td>
+                <td><input type="password" minlength="7" maxlength="25" required id="password" name="password"
+                        placeholder="password"></td>
+            </tr>
+            <tr>
+                <td><label for="range">Range</label> </td>
+                <td></td>
+                <td><input id="range" type="range" name="range" min="0" max="10"></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age</label></td>
+                <td></td>
+                <td><input type="number" required min="1" max="100" id="age" name="age" placeholder="age"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth</label></td>
+                <td></td>
+                <td><input type="date" id="dob" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="profilePic">Profile Picture</label></td>
+                <td></td>
+                <td><input type="file" required id="profilePic"></td>
+            </tr>
+            <tr>
+                <td><label for="selectionBox">Education</label></td>
+                <td></td>
+                <td><select name="selectionBox" id="selectionBox">
+                        <option value="">--Select an option--</option>
+                        <option value="X">X</option>
+                        <option value="XII">XII</option>
+                        <option value="underGrad">College - Under Graduate</option>
+                        <option value="postGrad">College - Post Graduate</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="search">Search</label></td>
+                <td></td>
+                <td><input type="search" id="search" name="search"></td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="Clear Form"></td>
+                <td></td>
+                <td><input type="submit" value="Sign-In"></td>
+            </tr>
+        </table>
+    </form>
+
+    <hr>
+
+    <form action="https://www.google.com/search">
+        <label for="search">Google Search</label>
+        <input type="search" id="search" name="q">
+        <button>Go!</button>
+    </form>
+
+
+
+</body>
+
+</html>
