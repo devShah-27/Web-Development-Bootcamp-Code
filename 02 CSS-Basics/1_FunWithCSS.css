@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
+
+.signup {
+    text-align: center;
+}
+
+.login {
+    padding: 20px;
+    text-align: center;
+}
+
+.question {
+    padding: 5px;
+}
+
+.btn {
+    background-color: white;
+    font-size: 20px;
+    color: #00b4d8;
+    border-radius: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: 'Open Sans', sans-serif;
+    border-color: #00b4d8;
+    border-style: solid;
+    cursor: pointer;
+    transition: background-color, color, border-color 200ms;
+}
+
+.btn:hover {
+    background-color: #00b4d8;
+    color: white;
+    border-color: #00b4d8;
+
+}
+
+/* #signup:active{
+    color: #00758d;
+    border-color: #00758d;
+} */
+
+#newTo {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    color: #00b4d8;
+    padding-right: 5px;
+}
